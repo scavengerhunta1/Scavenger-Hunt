@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<head>
+<title>Question 2</title>
+<meta charset="utf-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1.0, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body{
+  font-family: "Montserrat";
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+   form{
+  text-align: right;
+}
+input{
+  border-radius: 20px;
+  height: 30px;
+  text-align: center;
+}
 
+#check{
+  background-color: black;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  margin: auto 10px;
+  color: white;
+}
+.response{
+  text-align: center;
+  color: white;
+  display: none;
+}
+.next{
+  color: black;
+  text-align: center;
+  padding: 5px;
+  background: white;
+  border-radius: 20px;
+  height: 30px;
+  margin: 10px 0px;
+  text-decoration: none;
+  display: none;
+}
+i{
+  padding: 0px 10px;
+}
+  </style>
+  <script src="answers.js"></script>
+</head>
+
+<body>
+  <h1 style="color:white; padding:20px; text-align:center;" >Wkh txhvwlrq fdq eh ghfrghg xvlqj wkh nhb "GHWHFWLYH".</h1>
+  </br>
+<h1 style="color:white; text-align:center;" >Cok dfo efl ojkuny hppzln dmk agvtlayjz ocakjppaa ymckso?
+</h1>
+
+  
+
+</body>
+
+<form>
+    <input type="text" placeholder="Enter Answer" id="answer" autocomplete="off">
+  </form>
+  <div style="text-align:right;margin: 10px 0px;">
+    <button id="check" onclick="check_ans2()"> Check</button>
+  </div>
+  <div class="response" id="wrong" style="text-align:center;color:silver;"> Wrong. Try Again. </div>
+  <div class="response" id="right"> Well Done! Click the button to find the next clue</div>
+  <div style="text-align:center;margin-top:20px;" id="Next">
+    <a class="next" href="drwho.html"> Next Clue<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+  </div>
+</html>
